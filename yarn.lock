@@ -204,12 +204,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"paketto@npm:^1.0.0-release":
-  version: 1.0.0-release
-  resolution: "paketto@npm:1.0.0-release"
+"paketto@npm:^1.0.1-release":
+  version: 1.0.1-release
+  resolution: "paketto@npm:1.0.1-release"
   dependencies:
     tslib: ^2.5.0
-  checksum: 20eeb71753dc31cd1f8ccc5d1cd5e2c3019cf73fdb37d50b7059c57395434b187be36561496323eb01e34e755ca89c975473d2269c5fd8d166acf7b6a8f19090
+  checksum: b3c8cb04d041ddaa792f2b0fa2a3144bc351d53ea69140e6151903377ba0371f8d0464a8642fed19ead45f48e801d0254238a5fa0744883dfa12484648eb43ef
   languageName: node
   linkType: hard
 
@@ -230,7 +230,7 @@ __metadata:
   resolution: "soketto-server@workspace:."
   dependencies:
     "@types/node": ^16.4.6
-    paketto: ^1.0.0-release
+    paketto: ^1.0.1-release
     ts-node: ^10.9.1
     typedoc: ^0.24.4
     typedoc-plugin-markdown: ^3.15.1
