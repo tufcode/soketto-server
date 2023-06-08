@@ -1,0 +1,49 @@
+{
+  "name": "soketto-server",
+  "version": "1.0.0-release",
+  "author": "Tufan Meriç Uyguner",
+  "license": "MIT",
+  "keywords": [
+    "server",
+    "uwebsockets",
+    "multiplayer",
+    "realtime",
+    "socket",
+    "websocket",
+    "networking",
+    "transport",
+    "communication"
+  ],
+  "description": "A simple and flexible server framework for realtime applications.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "build": "tsc && yarn typedoc"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.6",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.24.4",
+    "typedoc-plugin-markdown": "^3.15.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "paketto": "^1.0.0-release",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.15.0"
+  },
+  "packageManager": "yarn@3.5.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tufcode/soketto-server.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

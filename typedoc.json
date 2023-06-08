@@ -1,0 +1,13 @@
+{
+  // Comments are supported, like tsconfig.json
+  "out": "docs",
+  "excludeInternal": true,
+  "readme": "none",
+  "name": "API Docs for soketto server",
+  "cleanOutputDir": false,
+  "entryPoints": ["src/index.ts"],
+  "plugin": ["typedoc-plugin-markdown"],
+  "githubPages": false,
+  "entryDocument": "README.md",
+  "hideBreadcrumbs": true
+}
