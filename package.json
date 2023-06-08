@@ -24,7 +24,6 @@
     "LICENSE"
   ],
   "scripts": {
-    "semantic-release": "semantic-release",
     "build": "tsc && yarn typedoc"
   },
   "devDependencies": {
